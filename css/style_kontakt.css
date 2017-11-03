@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+header {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+nav {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #000;
+  text-align: center;
+  width: 64%;
+  word-spacing: .125Em;
+  border-radius: 10px;
+}
+
+nav a {
+    text-align: center;
+    padding: 0 6%;
+    color: #C33349;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+}
+
+nav a:hover {
+  color: #000;
+  background: #C33349;
+}
+
+nav a:visited, nav a:visited {
+    text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+form {
+  background: #000;
+  color: #fff;
+}
+p, label, input {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p, form {
+  margin: 0 20% 1% 20%;
+}
+
+form {
+  padding: 1% 2%;
+  border-radius: 2Em;
+}
+
+form p {
+  margin: 1Em;
+}
+
+input, textarea {
+  border-radius: .6Em;
+  border: none;
+}
+
+#senden {
+  background: #C33349;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+#senden:hover {
+  background: #fff;
+  color: #C33349;
+}
+
+
+footer div {
+  margin: 15% 10% 10% 75%;
+}
+
+.fa {
+    padding: .5Em;
+    margin: .25Em;
+    font-size: 1Em;
+    width: 1Em;
+    text-align: right;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+footer p {
+  font-size: .9Em;
+  margin: 0 5% 5% 70%;
+}
+
+@media screen and (max-width: 480px) {}
