@@ -46,6 +46,7 @@ h1 {
 }
 section {
     margin-top: 1%;
+    margin-bottom: 5%;
     padding:1.25Em;
     /*margin: 10%;*/
 }
@@ -84,6 +85,27 @@ section a:hover {
 
 section a:visited {
   background: #fff;
+}
+
+#respond {
+  font-family: 'Quicksand', sans-serif;
+  margin: 10% 20% 1% 20%;
+}
+
+#respond input[type='text'],
+#respond input[type='email'], 
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: .6Em;
+  line-height: 1.4em;
 }
 
 footer div {
