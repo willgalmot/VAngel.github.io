@@ -49,8 +49,8 @@ h1 {
 }
 
 form {
-  background: #000;
-  color: #fff;
+  border: 3px solid #C33349;
+  border-radius: 100%;
 }
 p, label, input {
   font-family: 'Quicksand', sans-serif;
@@ -71,7 +71,7 @@ form p {
 
 input, textarea {
   border-radius: .6Em;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #senden {
@@ -89,9 +89,13 @@ input, textarea {
 #respond {
   font-family: 'Quicksand', sans-serif;
   margin: 10% 20% 1% 20%;
-  background: #fff;
-  color: #000;
+  border: none;
 }
+
+#respond form {
+  border: none;
+}
+
 
 #respond input[type='text'],
 #respond input[type='email'],
